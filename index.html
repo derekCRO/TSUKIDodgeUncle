@@ -333,7 +333,7 @@ margin: 0rem !important;
     }
 </style>
                 <div id="dexscreener-embed">
-                  <iframe id="iframe-chart" src="https://dexscreener.com/ether/0x6212105A22BFE52a9Dbe034A8c89316469316369?embed=1&amp;theme=dark&amp;trades=0&amp;info=0"></iframe>
+                  <iframe id="iframe-chart" src="https://dexscreener.com/ether/0xe4ef9f920544c891759b8b208da2098f0d360cee?embed=1&amp;theme=dark&amp;trades=0&amp;info=0"></iframe>
                 </div>
               </div>
             </div>
@@ -371,11 +371,11 @@ $("#copy-to-clipboard").on("click", function(){
 });
 if (isEthereumAddress) {
     // Ethereum links
-    $(".chart-link").attr("href", `https://www.dextools.io/app/en/ether/pair-explorer/${contractAddress}`);
+    $(".chart-link").attr("href", `https://www.dextools.io/app/en/ether/pair-explorer/0xe4ef9f920544c891759b8b208da2098f0d360cee`);
     $(".buy-link").attr("href", `https://app.uniswap.org/#/swap?outputCurrency=${contractAddress}`);
-    $(".dexscreener-link").attr("href", `https://dexscreener.com/ethereum/${contractAddress}`);
+    $(".dexscreener-link").attr("href", `https://dexscreener.com/ethereum/0xe4ef9f920544c891759b8b208da2098f0d360cee`);
     $(".etherscan-link").attr("href", `https://etherscan.io/address/${contractAddress}`);
-    $("#iframe-chart").attr("src", `https://dexscreener.com/ethereum/${contractAddress}?embed=1&theme=dark&trades=0&info=0`);
+    $("#iframe-chart").attr("src", `https://dexscreener.com/ethereum/0xe4ef9f920544c891759b8b208da2098f0d360cee?embed=1&theme=dark&trades=0&info=0`);
     $("#uni-embed").attr("src", `https://app.uniswap.org/#/swap?outputCurrency=${contractAddress}`);
 } else {
     // Solana links
