@@ -333,7 +333,7 @@ margin: 0rem !important;
     }
 </style>
                 <div id="dexscreener-embed">
-                  <iframe id="iframe-chart" src="https://dexscreener.com/ether/0x570acb9ecd31c7e17372dea506955a9304392b68?embed=1&amp;theme=dark&amp;trades=0&amp;info=0"></iframe>
+                  <iframe id="iframe-chart" src="https://dexscreener.com/ethereum/0x570acb9ecd31c7e17372dea506955a9304392b68?embed=1&amp;theme=dark&amp;trades=0&amp;info=0"></iframe>
                 </div>
               </div>
             </div>
@@ -375,7 +375,7 @@ if (isEthereumAddress) {
     $(".buy-link").attr("href", `https://app.uniswap.org/#/swap?outputCurrency=${contractAddress}`);
     $(".dexscreener-link").attr("href", `https://dexscreener.com/ethereum/0x570acb9ecd31c7e17372dea506955a9304392b68`);
     $(".etherscan-link").attr("href", `https://etherscan.io/address/${contractAddress}`);
-    $("#iframe-chart").attr("src", `https://dexscreener.com/ethereum/0x123456789?embed=1&theme=dark&trades=0&info=0`);
+    $("#iframe-chart").attr("src", `https://dexscreener.com/ethereum/0x570acb9ecd31c7e17372dea506955a9304392b68?embed=1&theme=dark&trades=0&info=0`);
     $("#uni-embed").attr("src", `https://app.uniswap.org/#/swap?outputCurrency=${contractAddress}`);
 } else {
     // Solana links
