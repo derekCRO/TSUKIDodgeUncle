@@ -231,7 +231,7 @@ margin: 0rem !important;
                     <h1 class="heading-7">TSUKI</h1>
                     
                     <h4>Kabosu and Neiro's &#x27;S UNCLE</h4>
-                    <h3 style="font-size: 14px;">CA: 0x...</h3>
+                    <h3 style="font-size: 14px;">CA: 0x584A4cA6CA3EA54DCA0Aa6331ec7DBBB7cddfD4B</h3>
                   </div>
                   <div class="margin-top margin-medium">
                     <div class="button-group is-center">
@@ -333,7 +333,7 @@ margin: 0rem !important;
     }
 </style>
                 <div id="dexscreener-embed">
-                  <iframe id="iframe-chart" src="https://dexscreener.com/ether/0x123456789?embed=1&amp;theme=dark&amp;trades=0&amp;info=0"></iframe>
+                  <iframe id="iframe-chart" src="https://dexscreener.com/ether/0x570acb9ecd31c7e17372dea506955a9304392b68?embed=1&amp;theme=dark&amp;trades=0&amp;info=0"></iframe>
                 </div>
               </div>
             </div>
@@ -354,7 +354,7 @@ margin: 0rem !important;
   </div>
   <div class="links-script w-embed w-script">
     <script>
-const contractAddress = "0x123456789"; // Replace with actual address
+const contractAddress = "0x584a4ca6ca3ea54dca0aa6331ec7dbbb7cddfd4b"; // Replace with actual address
 // 0x000000000000000000000000000000000000dead
 // DEAD0000SOLxVzeiPYevZWK4Dh8C0000DEADCqjd
 const isEthereumAddress = contractAddress.startsWith('0x');
@@ -371,9 +371,9 @@ $("#copy-to-clipboard").on("click", function(){
 });
 if (isEthereumAddress) {
     // Ethereum links
-    $(".chart-link").attr("href", `https://www.dextools.io/app/en/ether/pair-explorer/0x123456789`);
+    $(".chart-link").attr("href", `https://www.dextools.io/app/en/ether/pair-explorer/0x570acb9ecd31c7e17372dea506955a9304392b68`);
     $(".buy-link").attr("href", `https://app.uniswap.org/#/swap?outputCurrency=${contractAddress}`);
-    $(".dexscreener-link").attr("href", `https://dexscreener.com/ethereum/0x123456789`);
+    $(".dexscreener-link").attr("href", `https://dexscreener.com/ethereum/0x570acb9ecd31c7e17372dea506955a9304392b68`);
     $(".etherscan-link").attr("href", `https://etherscan.io/address/${contractAddress}`);
     $("#iframe-chart").attr("src", `https://dexscreener.com/ethereum/0x123456789?embed=1&theme=dark&trades=0&info=0`);
     $("#uni-embed").attr("src", `https://app.uniswap.org/#/swap?outputCurrency=${contractAddress}`);
